@@ -354,12 +354,14 @@ h2,
 }
 
 .section--signup {
-  border-top: 1px solid hsl(0, 0%, 90%);
+  border-top: 1px dashed hsl(0, 0%, 90%);
   margin: 2.5em 0 0;
   padding: 2em 0 0;
 }
 
 .section--social-links {
+  border-bottom: 1px dashed hsl(0, 0%, 91%);
+  padding-bottom: 2em;
   margin-top: 2em;
   text-align: center;
 }
@@ -471,15 +473,33 @@ br.r--730 {
 }
 
 .footer--main {
-  border-top: 1px solid hsl(0, 0%, 91%);
   color: hsl(0, 0%, 60%);
-  font-weight: 300;
+  font-weight: 600;
   font-size: 70%;
   text-transform: uppercase;
-  margin: 4em 0 3em;
-  padding: 2em 0 0;
+  padding: 2em 0;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.footer--main small {
+  font-size: 95%;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.footer--logo {
+  display: inline-block;
+  margin: 0.5em 0 0 2em;
+  opacity: .65;
+}
+
+.footer--logo:hover {
+  opacity: 1;
+}
+
+.footer--logo:first-of-type {
+  margin-left: 0;
 }
 
 a:link,
