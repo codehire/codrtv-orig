@@ -546,13 +546,14 @@ a:active {
   }
   .list--features li:first-child { margin-left: auto; }
   .list--features br.r--730 { display: none; }
+  .fb-like { margin: 1.5em 0 0; }
 }
 
 /* Social widget overrides */
 
-.fb-like { margin-top: 1em; display: block !important; }
-.fb-like > span { width: auto !important; }
-.fb-like > span iframe { width: auto !important;  }
-.fb_iframe_widget iframe { position: static !important; }
+.fb-like { margin-left: 1em; }
+.fb-like > span { vertical-align: top !important; }
+/*.fb-like > span iframe { width: auto !important;  }*/
+/*.fb_iframe_widget iframe { position: static !important; }*/
 .twitter-follow-button { vertical-align: top; position: relative; top: 2px; }
-#___ytsubscribe_0 { margin-top: 2em !important; }
+#___ytsubscribe_0 { margin-right: 2em !important; }
