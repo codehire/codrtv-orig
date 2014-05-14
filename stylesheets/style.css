@@ -507,23 +507,17 @@ a:active {
 }
 
 @media screen and (max-width: 1000px) {
-  .wrapper {
-    padding: 0 1em;
-  }
+  .wrapper { padding: 0 1em; }
 }
 
 @media screen and (max-width: 920px) {
-  body {
-    font-size: 17px;
-  }
+  body { font-size: 17px; }
 }
 
 @media screen and (max-width: 850px) {
   h1,
   h2,
-  .p--large-text {
-    font-size: 140%;
-  }
+  .p--large-text { font-size: 140%; }
 
   .list--features li br { display: none; }
 }
@@ -535,48 +529,30 @@ a:active {
 @media screen and (max-width: 670px) {
   h1,
   h2,
-  .p--large-text {
-    font-size: 125%;
-  }
-
-  .list--features li {
-    width: 30%;
-  }
+  .p--large-text { font-size: 125%; }
+  .list--features li { width: 30%; }
   small { font-size: 80%; }
 }
 
 @media screen and (max-width: 500px) {
   .img--header-logo { max-width: 80%; }
-
-  .header--main h1 {
-    padding-bottom: 1em;
-  }
-
-  .section--main {
-    padding-top: 2em;
-  }
-
+  .header--main h1 { padding-bottom: 1em; }
+  .section--main { padding-top: 2em; }
+  .list--features { margin-top: 2em; }
   .list--features li {
     display: block;
     margin: 2em auto;
     width: 70%;
   }
-
   .list--features li:first-child { margin-left: auto; }
-
   .list--features br.r--730 { display: none; }
 }
 
 /* Social widget overrides */
 
 .fb-like { margin-top: 1em; display: block !important; }
-
 .fb-like > span { width: auto !important; }
-
 .fb-like > span iframe { width: auto !important;  }
-
 .fb_iframe_widget iframe { position: static !important; }
-
 .twitter-follow-button { vertical-align: top; position: relative; top: 2px; }
-
 #___ytsubscribe_0 { margin-right: 2em !important; }
