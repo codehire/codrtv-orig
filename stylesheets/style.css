@@ -360,7 +360,6 @@ h2,
 }
 
 .section--social-links {
-  border-bottom: 1px dashed hsl(0, 0%, 91%);
   padding-bottom: 2em;
   margin-top: 2em;
   text-align: center;
@@ -368,6 +367,8 @@ h2,
 
 .section--gplus-widget {
   text-align: center;
+  padding-bottom: 2em;
+  border-bottom: 1px dashed hsl(0, 0%, 91%);
 }
 
 .list--features {
